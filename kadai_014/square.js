@@ -1,7 +1,7 @@
-// 引数numを2乗にする関数を定義する
+// 引数numを2乗にし、その値を戻り値として返す関数を定義
 const calculation= (num) => {
-  console.log(num ** 2);
+  return num ** 2;
 }
-calculation();
-
+// 関数の戻り値を出力する
+console.log(calculation(15));
 
